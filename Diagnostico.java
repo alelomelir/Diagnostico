@@ -3,12 +3,10 @@ public class Diagnostico {
 
     public static void main(String[] args) {
         int i = 0;
-        for (i = 0; i <= 3; i++) {
-            System.out.println("Veces que corrio el primer for: " + i);
-            for (int j = 0; j <= 3; j++) {
-                System.out.println("Veces que corrio el segundo for: " + j);
-               
-            }
+        int[] arreglo = { 1, 2, 3, 4, 5, 6 };
+
+        for (i = 0; i <= arreglo.length; i++) {
+            System.out.println(arreglo[i]);
         }
     }
 }
